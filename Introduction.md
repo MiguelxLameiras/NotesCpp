@@ -10,9 +10,7 @@
 
 - <span style="color:lightblue"> **"<<"** </span>, are an overloaded operators. Operators are just functions, for example, `std::cout << "hello" << std::endl;` could just be `std::cout.print("hello").print(std::endl);`.
 
-    **Note:** <span style="color:lightblue"> **"cout"** </span> function, it's used to print the strings to the console on the screen, meanwhile <span style="color:lightblue"> **"endl"** </span> function moves to a new line.
-
-- `std::cin.get();` function waits until the user presses Enter before advancing to the next line of code.
+    **Note:** <span style="color:lightblue"> **"cout"** </span> function, it's used to print the strings to the console on the screen, meanwhile <span style="color:lightblue"> **"endl"** </span> function moves to a new line and <span style="color:lightblue">**"cin.get()"**</span> function reads a single character from the standard input , normally the keyboard, including spaces and Enter.
 
 - **Solution Configuration** - It can be <span style="color:lightblue"> **Debug** </span> or <span style="color:lightblue"> **Release** </span>, which are sets of rules that are applied when building a project.
 
