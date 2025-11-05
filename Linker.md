@@ -8,11 +8,11 @@
 
 - **Unresolved Symbols** - If a function is declared, for example in a **header**, but not defined anywhere, or if its object file isn't linked, you'll get an <span style="color:lightblue"> **unresolved external symbol** </span> error.
 
-- **Internal vs External Linkage**
+- **Internal / External Linkage**
     - **Static or unnamed namespace <span style="color:lightblue"> **"→"** </span> symbol** - is only visible inside that file, <span style="color:lightblue"> **internal linkage** </span>.
     - **Normal global definitions** - visible to other files, <span style="color:lightblue"> **external linkage** </span>.
  
- - **Static vs Dynamic Libraries** 
+ - **Static / Dynamic Libraries** 
     -   **Static (.lib / .a)** - merged into the program at compile time.
     -   **Dynamic (.dll/.so)** - linked at runtime, only references are stored.
 
