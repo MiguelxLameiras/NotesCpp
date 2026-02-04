@@ -21,7 +21,7 @@
                     {
                         X = x;
                         Y = y;
-                        //It doesn't ahve a return type
+                        //It doesn't have a return type
                     }
 
                     void Print(){
